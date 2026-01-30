@@ -1,16 +1,59 @@
-# React + Vite
+To do Application 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A complete full-stack To-Do web application where users can register, login, create boards, add todos, mark them complete, and delete both boards and todos.
 
-Currently, two official plugins are available:
+This project includes authentication, CRUD operations, frontend validation, and backend API integration.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Features
+--User Registration 
+--User Login
+--JWT-based Authentication
+--Token stored in Local Storage
 
-## React Compiler
+Boards
+--Create Boards
+--View all Boards
+--Delete Boards
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Todos
+--Add todos inside boards
+--Mark todo as completed
+--Delete todo
 
-## Expanding the ESLint configuration
+Validation
+--Email must contain '@' and "."
+--Password minimum length: 6 characters
+--Invalid email shows warning in UI
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+Tech Stack 
+
+-Frontend
+--React.js\
+--React Router DOM
+--CSS
+
+-Backend
+--Node.js
+--Express.js
+--MongoDB
+--JWT
+--bvryptjs
+
+Project Structure
+|-backend/
+| |-models/
+| |-routes/
+| |-middleware/
+| |=server.js 
+| |-package.json
+|
+|-frontend/
+| |-src/
+| | |-pages/
+| | |-App.jsx
+| | |-main.jsx
+| | |-index.css
+| |-package,json
+|
+|-README.md
