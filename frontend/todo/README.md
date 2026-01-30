@@ -45,7 +45,7 @@ Project Structure
 | |-models/
 | |-routes/
 | |-middleware/
-| |=server.js 
+| |-server.js 
 | |-package.json
 |
 |-frontend/
